@@ -1,5 +1,6 @@
 package com.breadhardit.travelagencykata.domain;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Value;
 
@@ -7,6 +8,7 @@ import java.time.LocalDate;
 
 @Value
 @Builder
+@AllArgsConstructor
 public class Customer {
     String id;
     String name;
@@ -15,4 +17,5 @@ public class Customer {
     String passportNumber;
     LocalDate enrollmentDate;
     Boolean active;
+
 }

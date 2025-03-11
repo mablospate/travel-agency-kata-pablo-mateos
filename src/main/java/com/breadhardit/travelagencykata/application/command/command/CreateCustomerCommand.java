@@ -1,7 +1,7 @@
 package com.breadhardit.travelagencykata.application.command.command;
 
-import com.breadhardit.travelagencykata.domain.Customer;
 import com.breadhardit.travelagencykata.application.port.CustomersRepository;
+import com.breadhardit.travelagencykata.domain.Customer;
 import lombok.Builder;
 import lombok.SneakyThrows;
 import lombok.Value;
@@ -30,5 +30,4 @@ public class CreateCustomerCommand {
         customersRepository.saveCustomer(customer);
         return customer.getId();
     }
-
 }

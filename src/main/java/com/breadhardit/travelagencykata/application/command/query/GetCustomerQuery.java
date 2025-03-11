@@ -1,7 +1,7 @@
 package com.breadhardit.travelagencykata.application.command.query;
 
-import com.breadhardit.travelagencykata.domain.Customer;
 import com.breadhardit.travelagencykata.application.port.CustomersRepository;
+import com.breadhardit.travelagencykata.domain.Customer;
 import lombok.Builder;
 import lombok.Value;
 import org.springframework.util.StringUtils;
