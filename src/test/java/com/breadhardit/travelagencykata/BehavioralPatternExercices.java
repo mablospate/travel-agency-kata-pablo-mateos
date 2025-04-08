@@ -61,6 +61,7 @@ public class BehavioralPatternExercices {
       else if (travel.sameCountryTravel) scanDNI();
     }
   }
+
   // Refactor code using the proper structural pattern
 
   /*

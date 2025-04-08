@@ -34,6 +34,7 @@ public class StructuralPatternExercices {
     public void addIngredient(Food food) {
       this.foodList.add(food);
     }
+
     // Returns the calories of the dish as the sum of calories of each Food
     public Long getCalories() {
       return this.foodList.stream().collect(Collectors.summarizingLong(Food::getCalories)).getSum();
